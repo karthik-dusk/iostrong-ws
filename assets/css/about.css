@@ -1,0 +1,83 @@
+.domain-icon {
+    color: #686868;
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vision-mission {
+  text-align: center;
+  min-height: 215px;
+}
+
+.about-content {
+    text-align: justify;
+    line-height: 1.9em;
+}
+
+.card-img-overlay {
+    background-color: rgba(#000, 0.4);
+    text-align: center;
+}
+
+.bxs-hourglass-top, 
+.bx-search,
+.bx-target-lock,
+.bx-crown,
+.bx-cast,
+.bxs-florist,
+.bx-category-alt,
+.bx-library {
+    font-size: 48px;
+    margin: 40px;
+}
+
+.card:hover .bx {
+    color: #ee3124;
+}
+
+.btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    display: inline-block;
+    padding: 14px 50px;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #686868;
+}
+
+.btn-get-started:hover {
+    color: #ee3124;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        justify-content: center;    }
+    .col-md-3 {
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 10px;
+    }
+}
+
+/* .section-title {
+    background-image: url("https://image.freepik.com/free-vector/3d-abstract-urban-financial-structure-analysis-big-data_1217-1782.jpg");
+    height: 300px;
+} */
+
+.card-img-top {
+    width: 112px;
+}
+
+.card-img-top-div {
+    text-align: center;
+    padding: 25px;
+}

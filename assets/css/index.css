@@ -1,0 +1,70 @@
+.about-content {
+    line-height: 1.8; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.know-more {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.learn-more {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.bxs-quote-left, 
+.bxs-quote-right {
+    color: #ee3124;
+    font-size: x-large;
+    margin: 5px;
+}
+
+.card-text {
+    font-size: 14px;
+  }
+  
+  .domain {
+    min-height: 230px;
+    background-color: #fff;
+    border-radius: 0px;
+    border-color: #fff;
+    text-align: center;
+  }
+  
+  .domain-icon {
+    color: #18d26e;
+    font-size: 36px;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .bxs-factory {
+    color: #007bff;
+  }
+  
+  .bxs-car {
+    color:#fd7e14;
+  }
+  
+  .bxs-car, .bx-rocket, .bxs-bullseye {
+    color:#dc3545;
+  }
+  
+  .bx-transfer-alt {
+    color: #ffbb2c;
+  }
+  
+  .bx-infinite {
+    color:#28a745;
+  }
+  
+  .about-content {
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+  }
