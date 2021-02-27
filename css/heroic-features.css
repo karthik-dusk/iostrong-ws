@@ -1,0 +1,166 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+ * {
+  font-family: 'Secular One', sans-serif; 
+}
+
+ body {
+  padding-top: 56px;
+}
+
+.service, .h-100 {
+  max-width: 253px;
+  min-width: 253px;
+}
+
+/* section styles */
+section {
+  margin-bottom: 20px;
+}
+
+
+/* Nav Bar */
+.navbar {
+  background-color: white !important; 
+}
+
+.alink {  
+  color: grey !important;
+}
+
+.alink:hover {  
+  color: #ee3124 !important;
+}
+
+a {
+  color: #ee3124 !important;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.navbar-brand img {
+  width: auto;
+  height: 45px;
+}
+
+/* Banner Area & Text */
+.jumbotron {
+  background-image: url("../assets/img/jumbotron_bg.jpg");
+  background-size: 99%;
+
+}
+
+.jumbotron .display-3 {
+  color: white !important;
+}
+
+.jumbotron .lead-text {
+  color: white !important;
+}
+
+/* Company Highlights */
+.highlight {
+  background-image: url("../assets/img/card-bg.png");
+  background-size: 200px;
+}
+
+/* about section styles */
+#about .container .title .title-text {
+  border-bottom-style: solid;
+  border-bottom-color: #ee3124;
+}
+
+.bx {
+  color: #ee3124;
+  font-size: x-large;
+  margin: 5px;
+}
+
+#about .container .content {
+  text-align: justify;
+}
+
+/* Services section styles */
+#services .container .title .title-text {
+  border-bottom-style: solid;
+  border-bottom-color: #ee3124;
+}
+
+.service .card-img-top {
+  height: 200px;
+}
+
+.services-content .content {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+/* Domains section styles */
+#domains .container .title .title-text {
+  border-bottom-style: solid;
+  border-bottom-color: #ee3124;
+}
+
+/* contact us */
+#contactus .container .title .title-text {
+  border-bottom-style: solid;
+  border-bottom-color: #ee3124;
+}
+
+button {
+  background: #686868;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+  background: #ee3124;
+}
+
+/* Contact us Section */
+.contact-content {
+  padding: 20px;
+}
+
+.email-form {
+  padding: 13px;
+}
+
+.contactus {
+  text-align: center;
+}
+
+.scan {
+  text-align: center;
+}
+
+.scan-card {
+  height: 329px;
+}
+
+/* footer */
+.footer {
+  background-image: url("../assets/img/footer/footer-buildings.png");
+  background-repeat: repeat-x;
+  height: 164px;
+}
+
+@media only screen and (max-width: 600px) {
+  .service {
+    margin-bottom: 5px;
+  }
+  .col-md-6 {
+    text-align: center;
+  }
+}
