@@ -1027,7 +1027,7 @@
 /* Banner */
 
     #banner {
-        background-image: url(../images/dark_tint.png), url('../assets/img/jumbotron_bg.jpg');
+        background-image: url('../assets/img/dark_tint.png'), url('../assets/img/jumbotron_bg.jpg');
         background-position: center center;
         background-size: cover;
         color: #ffffff;
